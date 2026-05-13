@@ -24,7 +24,7 @@ trap "rm -rf '$test_env'" EXIT
 ~/bin/hermit init --sources="file://$PWD" "$test_env" >/dev/null 2>&1
 source "$test_env/bin/activate-hermit" >/dev/null 2>&1
 
-for pkg in $(git diff --name-only "$base" "$head_ref" | grep '\.hcl$' | sed 's/\.hcl$//'); do
+for pkg in $(git diff --name-only "$base" "$head_ref" | grep -E '^[^/]+\.hcl$' | sed 's/\.hcl$//'); do
   base_versions=$("$script_dir/get-versions.sh" "$pkg" "$base")
   head_versions=$("$script_dir/get-versions.sh" "$pkg" "$head_ref")
   new_versions=$(comm -23 <(echo "$head_versions") <(echo "$base_versions") | grep -v '^$' || true)
