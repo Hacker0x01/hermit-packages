@@ -16,7 +16,7 @@ on "unpack" {
   }
 }
 
-version "1.1.0" "1.2.0" {
+version "1.1.0" "1.2.0" "1.3.0" {
   auto-version {
     github-release = "ovh/venom"
   }
@@ -31,4 +31,8 @@ sha256sums = {
   "https://github.com/ovh/venom/releases/download/v1.2.0/venom.darwin-arm64": "539cbd9e880a6a333f6bdc067ec6b5bf291d7de57c91f42d65e39a56ba2b6e52",
   "https://github.com/ovh/venom/releases/download/v1.2.0/venom.linux-arm64": "6e4356a4dadb342ecded339cc06c601becd598cab30918a8f65fa4f62d4bfc8c",
   "https://github.com/ovh/venom/releases/download/v1.1.0/venom.linux-arm64": "39e137d4a6a7a0de7bbe3c1af72a652bb15bf5d39228a7b5fe4d0ec9e2f12b7a",
+  "https://github.com/ovh/venom/releases/download/v1.3.0/venom.darwin-arm64": "c2f34f62180e9be2d6813cf1071946b5728f4dc4ddcfc56791dab9d213c52021",
+  "https://github.com/ovh/venom/releases/download/v1.3.0/venom.linux-arm64": "aada8ac76cb642daecbc8e31e830c94c42bcdd78fecd3a9d9d1a73c37c60d946",
+  "https://github.com/ovh/venom/releases/download/v1.3.0/venom.linux-amd64": "89832ec25e820c605cf0d3c09122e60bad43d13c1724aa6d375ef7109fbfe201",
+  "https://github.com/ovh/venom/releases/download/v1.3.0/venom.darwin-amd64": "fbabe5a44ef83c454601ccda7d7bec239566c3c8ceae4269411d3f2cea254f7b",
 }
