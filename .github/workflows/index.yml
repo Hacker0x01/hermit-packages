@@ -1,0 +1,37 @@
+on:
+  push:
+    branches:
+      - master
+  workflow_run:
+    workflows: [Auto-version]
+    types:
+      - completed
+name: Index
+jobs:
+  packages:
+    name: Update package index
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+      - name: Init Hermit
+        run: ./bin/hermit env -r >> $GITHUB_ENV
+      - name: Build Index
+        run: hermit search --json > index.json
+      - name: Ensure index release exists
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! gh release view index >/dev/null 2>&1; then
+            gh release create index \
+              --title "Package Index" \
+              --notes "Auto-generated package index for renovate (hermit datasource)." \
+              --latest=false
+          fi
+      - name: Upload Index
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload --clobber index index.json

@@ -1,0 +1,29 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 2 * * *"
+name: Auto-version
+jobs:
+  auto-version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Init Hermit
+        run: ./bin/hermit env -r >> $GITHUB_ENV
+      - name: Auto-version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -xe
+          hermit -d manifest auto-version --continue-on-error --update-digests $(ls -1 *.hcl | shuf)
+          curl --header "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/rate_limit
+          if git diff --exit-code HEAD; then
+            echo "No change"
+            exit 0
+          fi
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git commit -am "Auto-versioned: $(git diff --name-only | paste -s -d ' ' -)"
+          git push

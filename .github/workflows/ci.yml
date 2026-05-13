@@ -1,0 +1,30 @@
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+name: CI
+jobs:
+  packages:
+    name: Package sanity tests
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+      - name: Install Hermit
+        run: |
+          set -e
+          set -o pipefail
+          curl -fsSL https://github.com/cashapp/hermit/releases/download/stable/install.sh | bash
+      - name: Test packages
+        env:
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+        run: |
+          set -xe -o pipefail
+          ~/bin/hermit validate "file://$PWD"
+          .github/scripts/test-changed.sh
