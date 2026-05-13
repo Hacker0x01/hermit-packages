@@ -25,7 +25,7 @@ sources = [
 
 ## Renovate integration
 
-The `Index` workflow rebuilds `index.json` on every push to `master` and
+The `Index` workflow rebuilds `index.json` on every push to `main` and
 uploads it as an asset on the `index` GitHub release. Renovate's
 [Hermit datasource](https://docs.renovatebot.com/modules/datasource/hermit/)
 consumes this asset to discover new versions and open update PRs in repos
@@ -47,8 +47,8 @@ Configure renovate to read from this repo:
 
 | Workflow | Trigger | Purpose |
 |---|---|---|
-| `autoversion.yml` | Daily cron (02:30 UTC) + manual | Runs `hermit manifest auto-version --update-digests` over every `.hcl`; commits new upstream versions back to `master`. |
-| `index.yml` | Push to `master`, after Auto-version | Rebuilds `index.json` and re-uploads it to the `index` GitHub release. |
+| `autoversion.yml` | Daily cron (02:30 UTC) + manual | Runs `hermit manifest auto-version --update-digests` over every `.hcl`; commits new upstream versions back to `main`. |
+| `index.yml` | Push to `main`, after Auto-version | Rebuilds `index.json` and re-uploads it to the `index` GitHub release. |
 | `ci.yml` | PR / push | Validates manifests and runs `hermit test` against changed packages. |
 
 ## Adding a package

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Usage: test-changed.sh [--dry-run] [head-ref]
-# Defaults: head-ref=HEAD, compares against origin/master
+# Defaults: head-ref=HEAD, compares against origin/main
 
 dry_run=false
 if [[ "${1:-}" == "--dry-run" ]]; then
@@ -15,7 +15,7 @@ before_ref="${GITHUB_EVENT_BEFORE:-}"
 if [[ -n "${before_ref}" && "${before_ref}" != "0000000000000000000000000000000000000000" ]]; then
   base="$before_ref"
 else
-  base=$(git merge-base origin/master "$head_ref")
+  base=$(git merge-base origin/main "$head_ref")
 fi
 script_dir="$(dirname "$0")"
 
