@@ -21,7 +21,7 @@ script_dir="$(dirname "$0")"
 
 test_env=$(mktemp -d)
 trap "rm -rf '$test_env'" EXIT
-~/bin/hermit init --sources="file://$PWD" "$test_env" >/dev/null 2>&1
+~/bin/hermit init --sources="file://$PWD,https://github.com/cashapp/hermit-packages.git" "$test_env" >/dev/null 2>&1
 source "$test_env/bin/activate-hermit" >/dev/null 2>&1
 
 for pkg in $(git diff --name-only "$base" "$head_ref" | grep -E '^[^/]+\.hcl$' | sed 's/\.hcl$//'); do
