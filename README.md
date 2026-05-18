@@ -7,6 +7,7 @@ tools we use that are not published in
 ## Packages
 
 - `claude-code`
+- `devcontainer`
 - `moon`
 - `starship`
 - `venom`
