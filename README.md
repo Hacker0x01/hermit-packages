@@ -11,6 +11,7 @@ tools we use that are not published in
 - `moon`
 - `starship`
 - `venom`
+- `wait4x`
 - `zoxide`
 
 ## Using these manifests
