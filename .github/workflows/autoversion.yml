@@ -6,6 +6,7 @@ name: Auto-version
 jobs:
   auto-version:
     runs-on: ubuntu-latest
+    environment: hermit-autoversion
     steps:
       - name: Generate app token
         id: app-token
