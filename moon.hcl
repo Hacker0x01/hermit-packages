@@ -46,7 +46,7 @@ platform "linux" "arm64" {
   }
 }
 
-version "2.2.0" "2.2.1" "2.2.2" "2.2.3" "2.2.4" {
+version "2.2.0" "2.2.1" "2.2.2" "2.2.3" "2.2.4" "2.2.5" {
   auto-version {
     github-release = "moonrepo/moon"
   }
@@ -73,4 +73,8 @@ sha256sums = {
   "https://github.com/moonrepo/moon/releases/download/v2.2.3/moon_cli-x86_64-apple-darwin.tar.xz": "10f7c77964238ec3628bc61e8b8e3b83837321a29e6ad001c3eea4f1c71662f7",
   "https://github.com/moonrepo/moon/releases/download/v2.2.4/moon_cli-aarch64-unknown-linux-gnu.tar.xz": "16cfec08faada07fa1b3641c6bc316f7f4d489d15de8bb2afb45ea55b8901034",
   "https://github.com/moonrepo/moon/releases/download/v2.2.4/moon_cli-aarch64-apple-darwin.tar.xz": "e15b3d9d00a9e43321d1e239dab0a0165e9c0fa032019837144f3cb34139c026",
+  "https://github.com/moonrepo/moon/releases/download/v2.2.5/moon_cli-x86_64-apple-darwin.tar.xz": "eecfa3beb2c708e0bd3e69a696b8a8291d3685bda7826d3eb92bb40c7e642f4e",
+  "https://github.com/moonrepo/moon/releases/download/v2.2.5/moon_cli-x86_64-unknown-linux-gnu.tar.xz": "863f793ff5e6b564f5314e50fdb7abf405377188441023e173a5a1e85bec4948",
+  "https://github.com/moonrepo/moon/releases/download/v2.2.5/moon_cli-aarch64-apple-darwin.tar.xz": "b5ffdffcecae2f4b6b3a6ff15b03ad9c5aa8874d67fc2111881396e0d73ccf8c",
+  "https://github.com/moonrepo/moon/releases/download/v2.2.5/moon_cli-aarch64-unknown-linux-gnu.tar.xz": "8286615d1274f5517fb41bb5cb95c6bcde11297de6e2915459058a7aee112f21",
 }
