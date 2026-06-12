@@ -57,7 +57,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.128" "2.1.129" "2.1.131" "2.1.132" "2.1.133" "2.1.136" "2.1.137" "2.1.138"
         "2.1.139" "2.1.140" "2.1.146" "2.1.148" "2.1.149" "2.1.150" "2.1.152" "2.1.153"
         "2.1.156" "2.1.158" "2.1.159" "2.1.160" "2.1.161" "2.1.162" "2.1.163" "2.1.167"
-        "2.1.168" "2.1.169" "2.1.170" "2.1.172" {
+        "2.1.168" "2.1.169" "2.1.170" "2.1.172" "2.1.174" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -239,4 +239,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.172/darwin-x64/claude": "c507f98750c5230e4247f7eadff38e4db04c006904f85379e31c5d5e82e1c384",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.172/linux-arm64/claude": "4ef0d735bd4180c3bffc381f6dc38df979229a8637d294be751c6043d93d12e1",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.172/darwin-arm64/claude": "3c31f345575bf6f261c7e19981f6491bb93eeb0ffb499e95033610a7184831ce",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.174/darwin-arm64/claude": "20c5380b4423be9963c510f5464cc1f443235a9b4423179f9c01f28021b81bad",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.174/darwin-x64/claude": "af2940ac236bf1bb64d174defe392d5a5cc835b1d18f351f71a68cb049755dfb",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.174/linux-arm64/claude": "397896495a6cb90376e00797f1520af959b4ac1b9dddf7af9127b8cec1010071",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.174/linux-x64/claude": "08a7c90925cc622003a94b813ae0fc544c08776f6d890532f6212e15962899a8",
 }
