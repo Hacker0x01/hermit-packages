@@ -57,7 +57,8 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.128" "2.1.129" "2.1.131" "2.1.132" "2.1.133" "2.1.136" "2.1.137" "2.1.138"
         "2.1.139" "2.1.140" "2.1.146" "2.1.148" "2.1.149" "2.1.150" "2.1.152" "2.1.153"
         "2.1.156" "2.1.158" "2.1.159" "2.1.160" "2.1.161" "2.1.162" "2.1.163" "2.1.167"
-        "2.1.168" "2.1.169" "2.1.170" "2.1.172" "2.1.174" "2.1.177" "2.1.178" "2.1.179" {
+        "2.1.168" "2.1.169" "2.1.170" "2.1.172" "2.1.174" "2.1.177" "2.1.178" "2.1.179"
+        "2.1.181" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -255,4 +256,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.179/linux-arm64/claude": "25d2eba2351df153f872a8e19289f5042a26b430cd446564bd92a0dec5d681cd",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.179/linux-x64/claude": "6d8422de5ac8ac2077b20e2a6307083f85609aaf45f8c783ec2f7d71e8781e70",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.179/darwin-arm64/claude": "af2a2d0cb99b0e8b094bc5dbe114ed2d5b2d27ba440987ef6f2f209da9954253",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.181/linux-arm64/claude": "1393f993533e08d5c96245504750a7fcfe37490a5f44eec35b0beac3d709dab9",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.181/linux-x64/claude": "35ffd4e9d9a86395d0ba4e05f8b23bf098bfeab95e97deacd6537909d1324e9c",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.181/darwin-x64/claude": "353798bcdc49a52a666645370e1c48a84fe837d93bf9d954c19338dca7260ddd",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.181/darwin-arm64/claude": "c4d833b04606cef9b6eab3ad255ed2e1448f87dea2bc00ff5acf77b57df6e94d",
 }
