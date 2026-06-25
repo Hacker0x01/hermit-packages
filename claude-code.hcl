@@ -58,7 +58,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.139" "2.1.140" "2.1.146" "2.1.148" "2.1.149" "2.1.150" "2.1.152" "2.1.153"
         "2.1.156" "2.1.158" "2.1.159" "2.1.160" "2.1.161" "2.1.162" "2.1.163" "2.1.167"
         "2.1.168" "2.1.169" "2.1.170" "2.1.172" "2.1.174" "2.1.177" "2.1.178" "2.1.179"
-        "2.1.181" "2.1.183" "2.1.185" "2.1.186" "2.1.187" {
+        "2.1.181" "2.1.183" "2.1.185" "2.1.186" "2.1.187" "2.1.191" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -276,4 +276,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.187/linux-x64/claude": "bb02fcb33626f8c599d10d8bee38585d4cf8d4225c3b497869dee7454e7bf361",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.187/darwin-arm64/claude": "a59a16ba4922adab7a145728f215d042184d349f5f7e72cddb7fc114250a4ce3",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.187/darwin-x64/claude": "7f57b6935b4246d03cb7acee90dc22153083483a267da589c5c920dd04744c36",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.191/linux-arm64/claude": "1a31a7cbcfd784f8c073bfc8a0a1583fb6e93e60ef70b76d7fcf663ffed8949b",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.191/linux-x64/claude": "1038dba88bdf1b80941dc3e383e93b088325b00497329ac50da460c8786d5bee",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.191/darwin-x64/claude": "6e83aad5fc4fd459fd74539cda06d2279105eac2befc603d2fba6494974cb2a4",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.191/darwin-arm64/claude": "99fdfb552a5260e649aedd06c024d0a4105b09cefec0bf67d558e017ee66c400",
 }
