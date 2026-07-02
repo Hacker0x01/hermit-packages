@@ -59,7 +59,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.156" "2.1.158" "2.1.159" "2.1.160" "2.1.161" "2.1.162" "2.1.163" "2.1.167"
         "2.1.168" "2.1.169" "2.1.170" "2.1.172" "2.1.174" "2.1.177" "2.1.178" "2.1.179"
         "2.1.181" "2.1.183" "2.1.185" "2.1.186" "2.1.187" "2.1.191" "2.1.193" "2.1.195"
-        "2.1.196" "2.1.197" {
+        "2.1.196" "2.1.197" "2.1.198" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -297,4 +297,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.197/linux-arm64/claude": "fb48473c467c27615ac799a754f4ef0b68c363e4596cefbb59c3815d51a0cc8a",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.197/linux-x64/claude": "f54e69cbc89b2da61a415700af7ff52a147e862517d4f1b0eecf768448cf7f83",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.197/darwin-arm64/claude": "8cc0c4d1e4eb1dca3b0cc92ab02ee3505de764e023f8c901761c167b72041fb8",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.198/linux-arm64/claude": "99b50a6f2b1f3ef07bcaf1e58a2f9883c470c84e428afa321972b1aa20372e9a",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.198/linux-x64/claude": "7066af42a5fe93038c13af5072d4c034dc3928092cb121fdd892c76b94b6b84d",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.198/darwin-arm64/claude": "ab6f7ee109816ede414f7c285446633f805b623aa609f425609a64266451d61e",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.198/darwin-x64/claude": "280b6cfc60dacc4caed31af1249e53c259c01759556e60633944c02405c82dd0",
 }
