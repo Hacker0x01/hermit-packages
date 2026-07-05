@@ -18,7 +18,8 @@ platform "linux" "arm64" {
   source = "https://github.com/ajeetdsouza/zoxide/releases/download/v${version}/zoxide-${version}-aarch64-unknown-linux-musl.tar.gz"
 }
 
-version "0.9.0" "0.9.1" "0.9.2" "0.9.3" "0.9.4" "0.9.5" "0.9.6" "0.9.7" "0.9.8" "0.9.9" {
+version "0.9.0" "0.9.1" "0.9.2" "0.9.3" "0.9.4" "0.9.5" "0.9.6" "0.9.7" "0.9.8" "0.9.9"
+        "0.10.0" {
   auto-version {
     github-release = "ajeetdsouza/zoxide"
   }
@@ -65,4 +66,8 @@ sha256sums = {
   "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.6/zoxide-0.9.6-aarch64-unknown-linux-musl.tar.gz": "7da16a093b2ac16d577dc53d1f74a8199fc824c963fa3aaf77a6d9f294a895d5",
   "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.7/zoxide-0.9.7-x86_64-unknown-linux-musl.tar.gz": "ee53a42c11fe8a175ef7b136bb91f588aef76e1ae7133e58a695b1199588ee7e",
   "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.9/zoxide-0.9.9-x86_64-apple-darwin.tar.gz": "364249cff18354397c72ebb6b8f7358404c051c486e0f2f7a46e36c86c16f8c7",
+  "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-unknown-linux-musl.tar.gz": "2d93385b99f3e82cf2701609a1bffcad863fbeb75aa3fe7eb6be4d29be68b1ae",
+  "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-apple-darwin.tar.gz": "18ab7ae2633ad6e2ab79a4e665cbba1e95b7c872d44523326efb793202451dad",
+  "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-apple-darwin.tar.gz": "b55ae6f2f5f23d0a6ccb3bd4eeb2af9c7e0a6556e5255c82100e40305129bbb0",
+  "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-unknown-linux-musl.tar.gz": "f1f16c5d6298d63dee467eedea1cdcd8490e43e493bea43acd416dc9033ef641",
 }
