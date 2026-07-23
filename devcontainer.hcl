@@ -18,7 +18,7 @@ on "unpack" {
 }
 
 version "0.82.0" "0.83.0" "0.83.1" "0.83.2" "0.83.3" "0.84.0" "0.84.1" "0.85.0"
-        "0.86.0" "0.86.1" "0.87.0" {
+        "0.86.0" "0.86.1" "0.87.0" "0.88.0" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@devcontainers/cli"
@@ -39,4 +39,5 @@ sha256sums = {
   "https://registry.npmjs.org/@devcontainers/cli/-/cli-0.85.0.tgz": "54cb822bc2218186458e5690f67b0116f6800c45f5cb14671285e704a2ee2c29",
   "https://registry.npmjs.org/@devcontainers/cli/-/cli-0.86.0.tgz": "bb20b62db0d2c3603104afb5b34160db83119fba3850237d5be777174c1aacd5",
   "https://registry.npmjs.org/@devcontainers/cli/-/cli-0.86.1.tgz": "54318cc3880e9cd6058d5fa892deb91eeb158fb9e5ea9c3d1928810b2f4a8a5f",
+  "https://registry.npmjs.org/@devcontainers/cli/-/cli-0.88.0.tgz": "5cac67ef43a7150734e952b6b8ceb70949a492a090e79a0c8ed9e848f0aae72b",
 }
