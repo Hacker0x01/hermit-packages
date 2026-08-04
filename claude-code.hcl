@@ -61,7 +61,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.181" "2.1.183" "2.1.185" "2.1.186" "2.1.187" "2.1.191" "2.1.193" "2.1.195"
         "2.1.196" "2.1.197" "2.1.198" "2.1.199" "2.1.201" "2.1.202" "2.1.204" "2.1.205"
         "2.1.206" "2.1.207" "2.1.208" "2.1.210" "2.1.211" "2.1.212" "2.1.214" "2.1.215"
-        "2.1.216" "2.1.217" "2.1.218" "2.1.220" {
+        "2.1.216" "2.1.217" "2.1.218" "2.1.220" "2.1.221" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -371,4 +371,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.220/darwin-arm64/claude": "8addc857f3fe64d5a0368af9ee50321b50afb4a6918ba3ef018ab84f5dbbe081",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.220/linux-x64/claude": "674f61f20ff306f3100cf9200e4c36c4b70278b5bef2884549819b942a89c863",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.220/linux-arm64/claude": "159e4a51d796f3bf14677577100f7efb845611b1ceaf0c30cbd8d4650d942185",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.221/linux-x64/claude": "60db8e88d42c24b5199c92cfd56ec88370c510c3789c6f364af748354f087ada",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.221/darwin-arm64/claude": "7a181f36ed0fc4fbac6cee4ecf2b615eff93d8b434221fff5d7c878dc5ebf380",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.221/linux-arm64/claude": "d3c59d6bcc4adcf4cd85abca3bc13fa1131a34cb32f982bdf030d83a3b11e700",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.221/darwin-x64/claude": "f408b9f7e46439f6e34a3687ff67433fc6bc189f40220ce4f0a1e829e58f0a52",
 }
