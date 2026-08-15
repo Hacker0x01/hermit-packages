@@ -62,7 +62,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.196" "2.1.197" "2.1.198" "2.1.199" "2.1.201" "2.1.202" "2.1.204" "2.1.205"
         "2.1.206" "2.1.207" "2.1.208" "2.1.210" "2.1.211" "2.1.212" "2.1.214" "2.1.215"
         "2.1.216" "2.1.217" "2.1.218" "2.1.220" "2.1.221" "2.1.222" "2.1.223" "2.1.226"
-        "2.1.227" "2.1.228" "2.1.229" "2.1.232" {
+        "2.1.227" "2.1.228" "2.1.229" "2.1.232" "2.1.233" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -404,4 +404,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.232/darwin-arm64/claude": "7b39c1588df919d001dea3ffd5651adb682f2451b5a0e18d42d4233296b53cc7",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.232/linux-arm64/claude": "20797ebc644dfc47a69865c46d5cf702c7dbedd48d4268063b8828ebd55b39d0",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.232/linux-x64/claude": "61d23f8749136907d586d5b11831ea8a5234d4c1dea40a5e55c33b52e204c6d1",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.233/darwin-arm64/claude": "bc466b6cde63edafc773f471a1fb98787fabb31f52240c8616ce7e1f587b212d",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.233/linux-arm64/claude": "42df1841f74e9b2ac13f2c1a2a820ef6b9ac5b2efb8646bb25c9a92b8bd69194",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.233/linux-x64/claude": "55d281096f57d411ebbdd94dbf5e9ff3accb7c05713e37348c2c11d4b83bf9d9",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.233/darwin-x64/claude": "8b3ae18df411098ce55705c4bb151e9c97e34df55fe379c7b6b3122a69f0ea74",
 }
