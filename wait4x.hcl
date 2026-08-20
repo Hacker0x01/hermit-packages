@@ -5,7 +5,7 @@ test = "wait4x version"
 source = "https://github.com/wait4x/wait4x/releases/download/v${version}/wait4x-${os}-${arch}.tar.gz"
 
 version "2.14.0" "2.14.1" "2.14.2" "2.14.3" "3.0.0" "3.1.0" "3.2.0" "3.3.0" "3.3.1"
-        "3.4.0" "3.5.0" "3.5.1" "3.6.0" {
+        "3.4.0" "3.5.0" "3.5.1" "3.6.0" "3.7.1" {
   auto-version {
     github-release = "wait4x/wait4x"
   }
@@ -64,4 +64,8 @@ sha256sums = {
   "https://github.com/wait4x/wait4x/releases/download/v3.5.1/wait4x-darwin-amd64.tar.gz": "aa1738dd237c6417d6002b38a36254fbe6bec07f020764f4af9d2cb90cc5434f",
   "https://github.com/wait4x/wait4x/releases/download/v3.6.0/wait4x-darwin-arm64.tar.gz": "83503a10f3f85b8f9adb007b1c9c0a598cb9dad5b4dfbe365b46478704038a48",
   "https://github.com/wait4x/wait4x/releases/download/v3.6.0/wait4x-linux-arm64.tar.gz": "8014d1f117acf73e59b5b2f81a5ad9544b7332cbd7e6a157ef11c1d6ebf5f93e",
+  "https://github.com/wait4x/wait4x/releases/download/v3.7.1/wait4x-linux-amd64.tar.gz": "edfa85b60bebc113bc54504599d12976f9ac35868feb3e428d17d283b1090927",
+  "https://github.com/wait4x/wait4x/releases/download/v3.7.1/wait4x-darwin-amd64.tar.gz": "218626f15443993d6752ef43fcbc61f25c6d3f6a3a7ae77326e57db32046acb7",
+  "https://github.com/wait4x/wait4x/releases/download/v3.7.1/wait4x-darwin-arm64.tar.gz": "fa2af761cb4cdbf76b442d4c4c2e79c264ccfd23f08cd50caf2e009bf71933ca",
+  "https://github.com/wait4x/wait4x/releases/download/v3.7.1/wait4x-linux-arm64.tar.gz": "cc90eac7d554edd718fe82415f3488d3bc5c54798d427dd3f6bdb8e4f5d048e7",
 }
