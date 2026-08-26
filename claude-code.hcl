@@ -63,7 +63,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.206" "2.1.207" "2.1.208" "2.1.210" "2.1.211" "2.1.212" "2.1.214" "2.1.215"
         "2.1.216" "2.1.217" "2.1.218" "2.1.220" "2.1.221" "2.1.222" "2.1.223" "2.1.226"
         "2.1.227" "2.1.228" "2.1.229" "2.1.232" "2.1.233" "2.1.234" "2.1.235" "2.1.237"
-        "2.1.238" "2.1.239" "2.1.241" "2.1.243" {
+        "2.1.238" "2.1.239" "2.1.241" "2.1.243" "2.1.246" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -437,4 +437,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.243/darwin-arm64/claude": "1f72dc749e59d1e8b1aa0ecdc2b3a65e599698af9087be4ac1054f57602c304d",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.243/darwin-x64/claude": "37104a799bffa316fdfe6d4e99855031ad9bb5193d0d8e7e3bbb02ee4f33119f",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.243/linux-x64/claude": "4b0dafeedd0b469c41988e200036fd773e7553ba960349c9f02a82c6d1f2ba27",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.246/darwin-x64/claude": "336625850986371487de7ece776d583f36cc3b3bc7178fcfbde3656d010289fb",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.246/linux-x64/claude": "1a0a662dc1bb938eaec38545abce9a4a69113d7d7f7c5e1a553ea276617b906a",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.246/linux-arm64/claude": "f98296e6e61c507589d1a973b262976b734700ec4e055cb64afdbf6d9a337db7",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.246/darwin-arm64/claude": "7b09f01cb76a38e0e3a7c47c5d698d382162a5ff26538fc778683770caf9218b",
 }
