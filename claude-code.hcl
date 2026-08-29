@@ -63,7 +63,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.206" "2.1.207" "2.1.208" "2.1.210" "2.1.211" "2.1.212" "2.1.214" "2.1.215"
         "2.1.216" "2.1.217" "2.1.218" "2.1.220" "2.1.221" "2.1.222" "2.1.223" "2.1.226"
         "2.1.227" "2.1.228" "2.1.229" "2.1.232" "2.1.233" "2.1.234" "2.1.235" "2.1.237"
-        "2.1.238" "2.1.239" "2.1.241" "2.1.243" "2.1.246" "2.1.247" "2.1.250" {
+        "2.1.238" "2.1.239" "2.1.241" "2.1.243" "2.1.246" "2.1.247" "2.1.250" "2.1.251" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -449,4 +449,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.250/darwin-x64/claude": "c247e9bf78fca8a081c8a746811d9641f4c38e727c341d253f359ddab6870f45",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.250/linux-arm64/claude": "0f4ff542f895526499ce23d8752c64cbb2ceb05a32cf6a1c0d1e31d82b20643d",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.250/linux-x64/claude": "2be252a00ac56e704d7fbf7e5e9ef1243584093334a861945238a0c27e84bdac",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.251/linux-x64/claude": "fd5f10ff0eb58daec04900466b143ea98aab50abf208a422bc008eaec13f61f7",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.251/darwin-arm64/claude": "625869b01e0050f260b2980fac248fd9cef9e462612bded4ec9d3d49ff8969a5",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.251/linux-arm64/claude": "65445bd4dd042079cc3fa43791b561370a05c8599e8ec47580e25a81050abbdd",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.251/darwin-x64/claude": "44221d72a3f35772faa85ad9a36a678084a516f720e64b45e26eb9015315500b",
 }
