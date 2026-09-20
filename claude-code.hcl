@@ -65,7 +65,8 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.227" "2.1.228" "2.1.229" "2.1.232" "2.1.233" "2.1.234" "2.1.235" "2.1.237"
         "2.1.238" "2.1.239" "2.1.241" "2.1.243" "2.1.246" "2.1.247" "2.1.250" "2.1.251"
         "2.1.252" "2.1.258" "2.1.259" "2.1.260" "2.1.261" "2.1.263" "2.1.266" "2.1.267"
-        "2.1.268" "2.1.269" "2.1.270" "2.1.272" "2.1.273" "2.1.274" "2.1.276" "2.1.277" {
+        "2.1.268" "2.1.269" "2.1.270" "2.1.272" "2.1.273" "2.1.274" "2.1.276" "2.1.277"
+        "2.1.278" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -519,4 +520,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.277/linux-arm64/claude": "242c4d743beabc822edd8f247101bb800b4036c69e74b9e2a1adb120dfe46f5d",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.277/darwin-arm64/claude": "73d6a2a55c46907e49bd8bb7608e134333bd71173351ee16ddce7d7db9914b9c",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.277/darwin-x64/claude": "82b74d616e360cdff37dd1cecdf03e6bdfaa02411d914faac7af22a273a3132d",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.278/darwin-arm64/claude": "bd245662fb8a0e321b3bf133e930371d6563c387527885f30b2613aef3ba14d6",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.278/darwin-x64/claude": "c522425e3d42275d2ac2238757ef8ba7f80d165a934044ec5a7a5fd7d7b9950b",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.278/linux-x64/claude": "5c4735937844e84f8a93306e841a5b0e12252909b07870f789b190468da147ab",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.278/linux-arm64/claude": "7de6cab134e48321148e30182c98614118e8f4666819412bead45865190b34ed",
 }
