@@ -67,7 +67,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.252" "2.1.258" "2.1.259" "2.1.260" "2.1.261" "2.1.263" "2.1.266" "2.1.267"
         "2.1.268" "2.1.269" "2.1.270" "2.1.272" "2.1.273" "2.1.274" "2.1.276" "2.1.277"
         "2.1.278" "2.1.280" "2.1.281" "2.1.282" "2.1.283" "2.1.284" "2.1.285" "2.1.286"
-        "2.1.287" "2.1.288" "2.1.289" "2.1.290" "2.1.292" {
+        "2.1.287" "2.1.288" "2.1.289" "2.1.290" "2.1.292" "2.1.293" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -573,4 +573,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.292/darwin-x64/claude": "a9739a215728ce72435885fedb19d1317ee1ccec61e246fbfb3acaf01689c473",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.292/darwin-arm64/claude": "97a01e5bc74a199e67189435d0331ea3a24eac2e07db4b76d9148c5b0386138f",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.292/linux-arm64/claude": "24caa9e6ff13bf227049a2626f1c816fc895023050f0ec3b12dbf14d897367e0",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.293/darwin-x64/claude": "267af22d4eb187b8d65d1592e6fabf57b1df6c254913d5a6c5d8b956a02cd002",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.293/linux-x64/claude": "8968405e26db478af44eabc4635ab5ca557057b702a54460a59c13e1b253e978",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.293/darwin-arm64/claude": "4e21122a227857da1178aca3299700c1fd7f2b77c93f12e73c2c76db796a105e",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.293/linux-arm64/claude": "a43629e888f0a7d96c5e8de62abf44852433a7ff2481574688db3e5b6399491f",
 }
