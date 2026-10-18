@@ -21,7 +21,8 @@ platform "linux" "arm64" {
 
 version "1.10.3" "1.11.0" "1.12.0" "1.13.0" "1.13.1" "1.14.0" "1.14.1" "1.14.2"
         "1.15.0" "1.16.0" "1.17.0" "1.17.1" "1.18.0" "1.18.1" "1.18.2" "1.19.0" "1.20.1"
-        "1.21.1" "1.22.1" "1.23.0" "1.24.0" "1.24.1" "1.24.2" "1.25.0" "1.25.1" "1.26.0" {
+        "1.21.1" "1.22.1" "1.23.0" "1.24.0" "1.24.1" "1.24.2" "1.25.0" "1.25.1" "1.26.0"
+        "1.27.0" {
   auto-version {
     github-release = "starship/starship"
   }
@@ -132,4 +133,8 @@ sha256sums = {
   "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-musl.tar.gz": "b7c232b0e8249d8e55a40beb79c5c43a7d370f3f9408bd215deb0170daeaadf3",
   "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-apple-darwin.tar.gz": "5548f406a4b6f5695903bdea83f77ce47ec12c8c0e62dabd33122d8f133e4207",
   "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-apple-darwin.tar.gz": "c40b27b11f580411e068f2fa6c1be7830a387c0bc47a94d1d37f32b054c5361d",
+  "https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-apple-darwin.tar.gz": "5362da8cb2928f98f3ce0ffda697cf0f8de70081db000dae316d6d3a404f6cf0",
+  "https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz": "10c8eb4cb3b761d9bf59ea828444c2dab36c900b7d69a69e08814b286969df89",
+  "https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-apple-darwin.tar.gz": "344e4d38787e0aa86dd522ae5462e6fb6da1227691f81a79ffed480a4563ccb3",
+  "https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-unknown-linux-musl.tar.gz": "341f5cbf24699fa0b27ec88965ad25f862ea09e15d35a543fd6ffdff1d2aa00d",
 }
