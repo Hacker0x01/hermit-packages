@@ -68,7 +68,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.268" "2.1.269" "2.1.270" "2.1.272" "2.1.273" "2.1.274" "2.1.276" "2.1.277"
         "2.1.278" "2.1.280" "2.1.281" "2.1.282" "2.1.283" "2.1.284" "2.1.285" "2.1.286"
         "2.1.287" "2.1.288" "2.1.289" "2.1.290" "2.1.292" "2.1.293" "2.1.295" "2.1.296"
-        "2.1.300" "2.1.301" "2.1.302" "2.1.303" {
+        "2.1.300" "2.1.301" "2.1.302" "2.1.303" "2.1.304" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -602,4 +602,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.303/linux-x64/claude": "375988f457756524234695cf2d8f64ace99c5f68682e47ea24862a843c191450",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.303/linux-arm64/claude": "f384f49826336d4ac0484ac6ac9d8d16f64d244d186ce227cbd7cc088c03315d",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.303/darwin-arm64/claude": "d2da3b003dc08b88b7230469014fe3e1dc6fe94bc8f648e89b34175d30269370",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.304/darwin-x64/claude": "f2ae409b46b1bdc1dec7afa12c6a094ff64e7d4ca272ca09f69dd0080c846703",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.304/linux-arm64/claude": "c487117526509ab6d2ee6013e14f181faf68d6d6afe6bb0d4b2b4a9feca5ecb3",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.304/linux-x64/claude": "ea0f135784631619a7a409d07322ecec964f9cc4fd377508ed1ba3f141f27912",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.304/darwin-arm64/claude": "b9ac5374839f14abf3f1f45610637c332b5daee5ce0d1634726cef87aab78e6a",
 }
