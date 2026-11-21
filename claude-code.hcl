@@ -70,7 +70,7 @@ version "2.1.110" "2.1.111" "2.1.112" "2.1.113" "2.1.114" "2.1.116" "2.1.117"
         "2.1.287" "2.1.288" "2.1.289" "2.1.290" "2.1.292" "2.1.293" "2.1.295" "2.1.296"
         "2.1.300" "2.1.301" "2.1.302" "2.1.303" "2.1.304" "2.1.305" "2.1.307" "2.1.309"
         "2.1.310" "2.1.311" "2.1.312" "2.1.314" "2.1.316" "2.1.317" "2.1.318" "2.1.319"
-        "2.1.322" "2.1.323" "2.1.325" "2.1.326" "2.1.327" "2.1.328" "2.1.329" {
+        "2.1.322" "2.1.323" "2.1.325" "2.1.326" "2.1.327" "2.1.328" "2.1.329" "2.1.330" {
   auto-version {
     json {
       url = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -680,4 +680,8 @@ sha256sums = {
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.329/linux-x64/claude": "30e2724e2aecb1bf5dc9f3130901afb71c5fa229051c190a6d7ad9aff6378d6d",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.329/darwin-arm64/claude": "8c1729568b19cdadedd0a978bf692f9f279ef554c8a333c4e132b94fd8725550",
   "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.329/darwin-x64/claude": "681ae87ba919ea16761d522ca25afa4639914bda6d5cf89a6ac4898406856db1",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.330/linux-x64/claude": "f390eaa0814e6a1bff74cbb47acb74cb9c89d30ced809fe0af5af00c7bfe8ebb",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.330/linux-arm64/claude": "6016f90cac783e367fb1aa97c768a2efb94a0128a5b46b70fb3d8fcbbd9dd444",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.330/darwin-arm64/claude": "f7c5093b9dd6560d08af28bc27b123fb55091deae3180ac39df199522da86815",
+  "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.330/darwin-x64/claude": "bbed99bb8a39bb3f94389c5c99d3d02cb75f3f983b5d1bc40b1b0d1efca84713",
 }
